@@ -23,7 +23,7 @@ public class MyServiceEndPoint {
 
     @WriteOperation
     public void stopDocker(){
-        System.out.println("docker stopped.....mmm");
+        System.out.println("docker stopped.....hhh");
     }
 
 
