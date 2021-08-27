@@ -18,12 +18,12 @@ public class MyServiceEndPoint {
     @ReadOperation
     public Map getDockerInfo(){
         //端点的读操作  http://localhost:8080/actuator/myservice
-        return Collections.singletonMap("dockerInfo","docker started.....去去去");
+        return Collections.singletonMap("dockerInfo","docker started.....mmm");
     }
 
     @WriteOperation
     public void stopDocker(){
-        System.out.println("docker stopped.....");
+        System.out.println("docker stopped.....mmm");
     }
 
 
